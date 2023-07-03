@@ -1,0 +1,22 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 197: end of line expected.
+    show text credits = ('Backgrounds', 'Aleksandra Zawilińska'),('Animation ', 'Aleksandra Zawilińska'),
+                      ^
+
+File "game/script.rpy", line 198: expected statement.
+    , ('Sprites ', 'Julia Klim'),
+    ^
+
+File "game/script.rpy", line 199: expected statement.
+    , ('Writing', 'Julia Klim, Aleksandra Zawilińska'),
+    ^
+
+File "game/script.rpy", line 200: expected statement.
+    , ('Programming', 'Julia Klim'),
+    ^
+
+Ren'Py Version: Ren'Py 8.0.3.22090809
+Mon Jul  3 07:21:06 2023

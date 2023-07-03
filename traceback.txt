@@ -1,0 +1,35 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 11, in script
+    image example= movie(play="Final_Ascend.mpg")
+  File "game/script.rpy", line 11, in script
+    image example= movie(play="Final_Ascend.mpg")
+  File "game/script.rpy", line 11, in <module>
+    image example= movie(play="Final_Ascend.mpg")
+NameError: name 'movie' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "D:\Pobrane 2\renphy\renpy-8.0.3-sdk\renpy\bootstrap.py", line 277, in bootstrap
+    renpy.main.main()
+  File "D:\Pobrane 2\renphy\renpy-8.0.3-sdk\renpy\main.py", line 558, in main
+    renpy.game.context().run(node)
+  File "game/script.rpy", line 11, in script
+    image example= movie(play="Final_Ascend.mpg")
+  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python3.9/site-packages/future/utils/__init__.py", line 441, in raise_
+  File "game/script.rpy", line 11, in script
+    image example= movie(play="Final_Ascend.mpg")
+  File "D:\Pobrane 2\renphy\renpy-8.0.3-sdk\renpy\ast.py", line 1230, in execute
+    img = renpy.python.py_eval_bytecode(self.code.bytecode)
+  File "D:\Pobrane 2\renphy\renpy-8.0.3-sdk\renpy\python.py", line 1085, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 11, in <module>
+    image example= movie(play="Final_Ascend.mpg")
+NameError: name 'movie' is not defined
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.0.3.22090809
+Storybordy 1.0
+Sun Jul  2 22:42:58 2023
