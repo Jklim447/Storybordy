@@ -94,11 +94,11 @@ label start:
 
     menu:
         "Znajdź Luisa":
-         call GotoLuis from _call_GotoLuis
+         call GotoLuis
         "Znajdź Emily":
-         call GotoEmily from _call_GotoEmily
+         call GotoEmily
         "Poszukaj wskazówek kim jest Rutger":
-         call GotoRutger from _call_GotoRutger
+         call GotoRutger
 
 
 
